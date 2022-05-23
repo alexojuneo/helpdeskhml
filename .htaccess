@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule  A ./login.php
+
+RewriteRule google https://google.com [NC,R=302]
